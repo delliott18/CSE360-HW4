@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.h2database:h2:2.1.214'
+    implementation 'org.mindrot:jbcrypt:0.4'
+}
+
+mainClassName = 'EmailLoginUI'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
